@@ -29,4 +29,3 @@ for (let ano= 2025; ano >=1950; ano --) {
         SELECT_ANO.innerHTML += `<option> ${ano} </option>`;
     }
 }
-
