@@ -45,7 +45,7 @@ dados.forEach((produto)=> {
         <tr>
             <td>${produto.id}</td>
             <td>${produto.nome}</td>
-            <td>${produto.categoria}</td>
+            <td>${produto.telefone}</td>
             <td> <img src="${produto.imagem}" onclick="abrirModal('${produto.nome}' ,'${produto.imagem}')" width="50px" data-bs-toggle="modal" data-bs-target="#exampleModal"></td>
             <td>${produto.quantidade}</td>
             <td>${produto.valor}</td>
